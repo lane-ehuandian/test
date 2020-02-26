@@ -1,0 +1,4 @@
+---- RS485_RE Matches (3 in 1 files) ----
+modbus_rtu_test.c (D:\work\001Center\soft\rt-thread-v4.0.1 - modbus\rt-thread\bsp\gd32403\packages\libmodbus-latest\examples) line 6 : #define RS485_RE 20//GET_PIN(G, 8)
+test_thread in modbus_rtu_test.c (D:\work\001Center\soft\rt-thread-v4.0.1 - modbus\rt-thread\bsp\gd32403\packages\libmodbus-latest\examples) :     modbus_rtu_set_rts(ctx, RS485_RE, MODBUS_RTU_RTS_UP);
+rtu_test_init in modbus_rtu_test.c (D:\work\001Center\soft\rt-thread-v4.0.1 - modbus\rt-thread\bsp\gd32403\packages\libmodbus-latest\examples) :     rt_pin_mode(RS485_RE, PIN_MODE_OUTPUT);
